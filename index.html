@@ -12,9 +12,9 @@
 
 <body>
   <!-- Accessibility: Cookie banner should be the first thing that loads. -->
-  <dialog class="banner">
+  <dialog id="cookie-banner" class="banner">
     <p>This website uses cookies to ensure you get the best experience on our website.</p>
-    <button class="button">Accept</button>
+    <button id="cookie-accept-button" class="button">Accept</button>
   </dialog>
 
   <header>
@@ -149,6 +149,9 @@
       <p>You can also take the TCAT line 340 from Trumansburg; it will drop you off right at the zoo.</p>
     </section>
   </main>
+
+  <script src="scripts/jquery-3.7.1.js"></script>
+  <script src="scripts/cookies.js"></script>
 
 </body>
 
